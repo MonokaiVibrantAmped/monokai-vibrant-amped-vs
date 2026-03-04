@@ -5001,11 +5001,11 @@
         <Foreground Type="CT_RAW" Source="FFFAFAFA" />
       </Color>
       <Color Name="Plain Text">
-        <Background Type="CT_RAW" Source="FF323232" />
+        <Background Type="CT_RAW" Source="FF232323" />
         <Foreground Type="CT_RAW" Source="FFFAFAFA" />
       </Color>
       <Color Name="Inactive Selected Text">
-        <Background Type="CT_RAW" Source="FF323232" />
+        <Background Type="CT_RAW" Source="FF232323" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Selected Text in High Contrast">
@@ -5023,7 +5023,7 @@
     </Category>
     <Category Name="Package Manager Console" GUID="{f9d6bce6-c669-41db-8ee7-dd953828685b}">
       <Color Name="Plain Text">
-        <Background Type="CT_RAW" Source="FF323232" />
+        <Background Type="CT_RAW" Source="FF232323" />
         <Foreground Type="CT_RAW" Source="FFFAFAFA" />
       </Color>
       <Color Name="Selected Text">
@@ -9945,7 +9945,7 @@
         <Background Type="CT_RAW" Source="FF5649B0" />
       </Color>
       <Color Name="StatusBarBackgroundFillDebugging">
-        <Background Type="CT_RAW" Source="FFBC4B09" />
+        <Background Type="CT_RAW" Source="FF8AED6A" />
       </Color>
       <Color Name="StatusBarBackgroundFillRest">
         <Background Type="CT_RAW" Source="8B000000" />
