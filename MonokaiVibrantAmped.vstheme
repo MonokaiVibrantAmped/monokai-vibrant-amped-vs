@@ -1,5 +1,5 @@
 ﻿<Themes>
-  <Theme Name="Monokai Vibrant Amped" GUID="{3fb0b1ce-fa82-427b-b551-66f5a0a3587c}" BaseGUID="{8e55f205-01c8-444c-82db-6d802aca89ba}">
+  <Theme Name="Monokai Vibrant Amped" GUID="{3fb0b1ce-fa82-427b-b551-66f5a0a3587c}" BaseGUID="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="Hyperlink">
         <Background Type="CT_RAW" Source="FFFFD52B" />
@@ -6623,6 +6623,126 @@
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
+      <Color Name="ShaderLab.Punctuation">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ShaderLab.ShaderProperty">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ShaderLab.Attribute">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="SpeculativeTextClassificationFormatDefinition">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="data.tools.diff.remove.line">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="data.tools.diff.add.line">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="data.tools.diff.remove.word">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="data.tools.diff.add.word">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.Punctuation">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.Semantic">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.PackOffset">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.RegisterLocation">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.Namespace">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.GlobalVariable">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.Field">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.LocalVariable">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.ConstantBufferVariable">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.Parameter">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.Function">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.Method">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.Class">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.Struct">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.Interface">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.ConstantBuffer">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Hlsl.Macro">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="MarkerFormatDefinition/CppHighlightedDefinition">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="CppAttributesSyntacticTokenFormat">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="array name">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="pointer name">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="function pointer name">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
     </Category>
     <Category Name="SearchControl" GUID="{f1095fad-881f-45f1-8580-589e10325eb8}">
       <Color Name="PopupItemsListBackgroundGradientBegin">
@@ -7770,6 +7890,38 @@
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
+      <Color Name="Text">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="SQL Stored Procedure">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="SQL System Table">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="SQL System Function">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="SQL Operator">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="SQL String">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="SQLCMD Command">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Error">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
     </Category>
     <Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
       <Color Name="Plain Text">
@@ -7903,6 +8055,22 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="SQL DML Marker">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Coverage Touched Area">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Coverage Not Touched Area">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Coverage Partially Touched Area">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Error Message">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
@@ -9245,7 +9413,7 @@
         <Background Type="CT_RAW" Source="FF8171EB" />
       </Color>
       <Color Name="PurplePrimaryAlt">
-        <Background Type="CT_RAW" Source="FF9184EE" />
+        <Background Type="CT_RAW" Source="FFFFD52B" />
       </Color>
       <Color Name="PurpleSecondary">
         <Background Type="CT_RAW" Source="CC8171EB" />
@@ -9351,6 +9519,9 @@
       <Color Name="PopupText">
         <Background Type="CT_RAW" Source="FFFAFAFA" />
       </Color>
+      <Color Name="PopupHyperlink">
+        <Background Type="CT_RAW" Source="FF006CBE" />
+      </Color>
     </Category>
     <Category Name="Folder Difference" GUID="{b36b0228-dbad-4db0-b9c7-2ad3e572010f}">
       <Color Name="Different content">
@@ -9421,7 +9592,7 @@
         <Background Type="CT_RAW" Source="FF5649B0" />
       </Color>
       <Color Name="AccentFillDefault">
-        <Background Type="CT_RAW" Source="FF9184EE" />
+        <Background Type="CT_RAW" Source="FFFFD52B" />
       </Color>
       <Color Name="AccentFillDisabled">
         <Background Type="CT_RAW" Source="28FFFFFF" />
@@ -9448,7 +9619,7 @@
         <Background Type="CT_RAW" Source="FFD2CCF8" />
       </Color>
       <Color Name="AccentTextFillTertiary">
-        <Background Type="CT_RAW" Source="FF9184EE" />
+        <Background Type="CT_RAW" Source="FFFFD52B" />
       </Color>
       <Color Name="CardBackgroundFillDefault">
         <Background Type="CT_RAW" Source="0DFFFFFF" />
@@ -9696,6 +9867,12 @@
       <Color Name="TextOnAccentFillSelectedText">
         <Background Type="CT_RAW" Source="FF000000" />
       </Color>
+      <Color Name="AccentFillSenary">
+        <Background Type="CT_RAW" Source="1F5649B0" />
+      </Color>
+      <Color Name="SurfaceBackgroundFillDefault">
+        <Background Type="CT_RAW" Source="FF232323" />
+      </Color>
     </Category>
     <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
       <Color Name="EnvironmentBackground">
@@ -9705,7 +9882,7 @@
         <Background Type="CT_RAW" Source="0FFFFFFF" />
       </Color>
       <Color Name="EnvironmentBorder">
-        <Background Type="CT_RAW" Source="FF9184EE" />
+        <Background Type="CT_RAW" Source="FFFFD52B" />
       </Color>
       <Color Name="EnvironmentBorderInactive">
         <Background Type="CT_RAW" Source="FF454545" />
@@ -9720,7 +9897,7 @@
         <Background Type="CT_RAW" Source="80000000" />
       </Color>
       <Color Name="EnvironmentLogo">
-        <Background Type="CT_RAW" Source="FF9184EE" />
+        <Background Type="CT_RAW" Source="FFFFD52B" />
       </Color>
       <Color Name="StatusBarControlFill">
         <Background Type="CT_RAW" Source="20FFFFFF" />
@@ -9752,8 +9929,47 @@
       <Color Name="StatusBarTextFillDisabled">
         <Background Type="CT_RAW" Source="5DFFFFFF" />
       </Color>
+      <Color Name="CaptionControlCloseFillPrimary">
+        <Background Type="CT_RAW" Source="FFC42B1C" />
+      </Color>
+      <Color Name="CaptionControlCloseFillSecondary">
+        <Background Type="CT_RAW" Source="E6C42B1C" />
+      </Color>
+      <Color Name="CaptionControlCloseTextFillPrimary">
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="CaptionControlCloseTextFillSecondary">
+        <Background Type="CT_RAW" Source="B3FFFFFF" />
+      </Color>
+      <Color Name="StatusBarBackgroundFillBuilding">
+        <Background Type="CT_RAW" Source="FF5649B0" />
+      </Color>
+      <Color Name="StatusBarBackgroundFillDebugging">
+        <Background Type="CT_RAW" Source="FFBC4B09" />
+      </Color>
+      <Color Name="StatusBarBackgroundFillRest">
+        <Background Type="CT_RAW" Source="8B000000" />
+      </Color>
+      <Color Name="StatusBarBackgroundFillSolutionLoading">
+        <Background Type="CT_RAW" Source="FF005BA1" />
+      </Color>
+      <Color Name="StatusBarControlFillSecondary">
+        <Background Type="CT_RAW" Source="33000000" />
+      </Color>
+      <Color Name="StatusBarTextFillBuilding">
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="StatusBarTextFillDebugging">
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="StatusBarTextFillRest">
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="StatusBarTextFillSolutionLoading">
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
     </Category>
-    <Category Name="SQL Results - Grid" GUID="{6202ff3e-488e-4ead-92cb-be089659f8d7}">
+    <Category Name="SqlResultsGrid" GUID="{6202ff3e-488e-4ead-92cb-be089659f8d7}">
       <Color Name="Header Row">
         <Background Type="CT_RAW" Source="FF252526" />
         <Foreground Type="CT_RAW" Source="FFFAFAFA" />
@@ -9775,7 +9991,7 @@
         <Foreground Type="CT_RAW" Source="FFFAFAFA" />
       </Color>
     </Category>
-    <Category Name="SQL Results - Text" GUID="{587d0421-e473-4032-b214-9359f3b7bc80}">
+    <Category Name="SqlResultsText" GUID="{587d0421-e473-4032-b214-9359f3b7bc80}">
       <Color Name="Plain Text">
         <Background Type="CT_RAW" Source="FF2D2D30" />
         <Foreground Type="CT_RAW" Source="FFFAFAFA" />
@@ -10060,6 +10276,83 @@
       <Color Name="Artboard Background">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+    </Category>
+    <Category Name="ApplicationInsights" GUID="{fb17cf37-09ea-44a4-88a6-cd806fc6a24a}">
+      <Color Name="ButtonBorder">
+        <Background Type="CT_RAW" Source="FF4B76E7" />
+      </Color>
+      <Color Name="Button">
+        <Background Type="CT_RAW" Source="FF0460C8" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="ButtonHover">
+        <Background Type="CT_RAW" Source="FF0573EE" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="LandingPageBackground">
+        <Background Type="CT_RAW" Source="FFEEEEEE" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="LandingPageLetters">
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="ComboBoxText">
+        <Background Type="CT_RAW" Source="FF000000" />
+      </Color>
+      <Color Name="AIGrayText">
+        <Background Type="CT_RAW" Source="FF555555" />
+      </Color>
+      <Color Name="Success">
+        <Background Type="CT_RAW" Source="FF008000" />
+      </Color>
+      <Color Name="Error">
+        <Background Type="CT_RAW" Source="FFE00000" />
+      </Color>
+      <Color Name="TrendsAssistanceItemHeader">
+        <Foreground Type="CT_RAW" Source="FF9B4601" />
+      </Color>
+      <Color Name="TrendsShapesRegular">
+        <Background Type="CT_RAW" Source="FF0068AE" />
+      </Color>
+      <Color Name="TrendsShapesHighlighted">
+        <Background Type="CT_RAW" Source="FFB8860B" />
+      </Color>
+      <Color Name="StatusOK">
+        <Background Type="CT_RAW" Source="FF4EB543" />
+      </Color>
+      <Color Name="StatusPending">
+        <Background Type="CT_RAW" Source="FFE00000" />
+      </Color>
+      <Color Name="StatusWarning">
+        <Background Type="CT_RAW" Source="FFF1CA5D" />
+      </Color>
+      <Color Name="AIPurple">
+        <Background Type="CT_RAW" Source="FF5C2D91" />
+      </Color>
+      <Color Name="LandingPageConstrastBackground">
+        <Background Type="CT_RAW" Source="FFEEEEEE" />
+      </Color>
+      <Color Name="BorderLightContrast">
+        <Background Type="CT_RAW" Source="FF1E1E1E" />
+      </Color>
+      <Color Name="Squiggly">
+        <Background Type="CT_SYSCOLOR" Source="0000001A" />
+      </Color>
+      <Color Name="LiveMetricsRequestStroke">
+        <Background Type="CT_RAW" Source="FF56B45D" />
+      </Color>
+      <Color Name="LiveMetricsRequestFill">
+        <Background Type="CT_RAW" Source="FFEDF7EE" />
+      </Color>
+      <Color Name="LiveMetricsFailedRequestStroke">
+        <Background Type="CT_RAW" Source="FFEA485C" />
+      </Color>
+      <Color Name="LiveMetricsFailedRequestFill">
+        <Background Type="CT_RAW" Source="FFFCECEE" />
+      </Color>
+      <Color Name="SquigglyOrange">
+        <Background Type="CT_RAW" Source="00FF7F29" />
       </Color>
     </Category>
   </Theme>
