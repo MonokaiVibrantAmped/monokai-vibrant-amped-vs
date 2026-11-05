@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/vsix-publish",
+  "categories": [
+    "Themes"
+  ],
+  "identity": {
+    "internalName": "MonokaiVibrantAmped"
+  },
+  "overview": "README.md",
+  "priceCategory": "free",
+  "publisher": "Chadderbox",
+  "private": false,
+  "qna": true,
+  "repo": "https://github.com/MonokaiVibrantAmped/monokai-vibrant-amped-vs"
+}

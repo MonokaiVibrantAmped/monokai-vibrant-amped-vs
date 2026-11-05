@@ -81,3 +81,29 @@ jobs:
           files: bin/Release/${{ steps.version.outputs.filename }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to Visual Studio Marketplace
+        if: success()
+        shell: pwsh
+        run: |
+          if ([string]::IsNullOrWhiteSpace($env:VS_MARKETPLACE_PAT)) {
+            Write-Host "Neither VS_MARKETPLACE_PAT nor VS_PUBLISHER_ACCESS_TOKEN is set. Skipping publish to Visual Studio Marketplace."
+            exit 0
+          }
+
+          $vswhere = "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe"
+          $vsPath = & $vswhere -latest -products * -property installationPath
+          if (-not $vsPath) {
+            $vsPath = "C:\Program Files\Microsoft Visual Studio\2022\Enterprise"
+          }
+          $publisher = "$vsPath\VSSDK\VisualStudioIntegration\Tools\Bin\VsixPublisher.exe"
+          if (-not (Test-Path $publisher)) {
+            throw "VsixPublisher.exe not found at $publisher"
+          }
+          Write-Host "Publishing bin/Release/${{ steps.version.outputs.filename }} to Visual Studio Marketplace..."
+          & $publisher publish `
+            -payload "bin/Release/${{ steps.version.outputs.filename }}" `
+            -publishManifest "publishManifest.json" `
+            -personalAccessToken "$env:VS_MARKETPLACE_PAT"
+        env:
+          VS_MARKETPLACE_PAT: ${{ secrets.VS_MARKETPLACE_PAT || secrets.VS_PUBLISHER_ACCESS_TOKEN }}
